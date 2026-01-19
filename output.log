@@ -1,0 +1,12 @@
+warning: unused import: `ChoreListResponse`
+ --> src/api/mod.rs:6:24
+  |
+6 | pub use types::{Chore, ChoreListResponse};
+  |                        ^^^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: `donetick-tui` (bin "donetick-tui") generated 1 warning (run `cargo fix --bin "donetick-tui" -p donetick-tui` to apply 1 suggestion)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.08s
+     Running `target/debug/donetick-tui`
+Error: No such device or address (os error 6)

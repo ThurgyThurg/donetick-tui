@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:docs.donetick.com)",
+      "WebFetch(domain:github.com)"
+    ]
+  }
+}
